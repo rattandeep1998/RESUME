@@ -1,0 +1,304 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-image: url("http://www.designbolts.com/wp-content/uploads/2012/12/Grey-Jean-White-Seamless-Patterns-For-Website-Backgrounds.jpg");
+	background-color: lightgrey;
+}
+
+body > container {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	/*top: 0;
+	left: 0;
+	padding: 5px;*/
+	height: 100%;
+	box-sizing: border-box;	
+}
+
+body > container > navigator {
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url("http://www.designbolts.com/wp-content/uploads/2012/12/Grey-Jean-White-Seamless-Patterns-For-Website-Backgrounds.jpg");
+	background-color: lightgrey;
+}
+
+body > container > navigator ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+}
+
+/*
+body > container > navigator {
+	display: flex;
+	width: 10%;
+	flex-direction: column;
+	height:100%;
+	position: fixed;
+	box-sizing: border-box;
+	justify-content: space-around;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+body > container > navigator ul {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+*/
+body > container > navigator ul li {
+	margin: 1%;
+	display: block;
+}
+
+body > container > navigator ul li a {
+	display: block;
+}
+
+
+#navlist li a img {
+	opacity: 0.5;
+	height:4em;
+	border-radius: 50%;
+}
+
+
+body > container > mainbody {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	/*overflow-y: scroll;*/
+	background-color: white;
+	box-sizing: border-box;
+	margin: 2% 5%;
+	padding-top: 120px;
+}
+
+
+
+
+
+
+body > container > mainbody > about {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	padding: 2%;
+	/*margin: 10px;*/
+	display: flex;
+	/*flex-direction: column;*/
+	justify-content: space-around;
+	align-items: center;
+	box-sizing: border-box;
+}
+
+div.info {
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+
+div.info #name {
+	letter-spacing: 3px;
+	font-family: "Simonetta", "Trebuchet MS", Arial, sans-serif;
+	font-weight: bold;
+	font-size: 2.5em;
+	color:#404040;
+	font-family: 'Bree Serif', serif;
+}
+
+div.info #tagline {
+	margin-top: 5px;
+	/*font-family: "Trebuchet MS", Verdana, Arial, sans-serif;*/
+	font-size: 2em;
+	color:#9C9C9C;
+	font-family: 'Great Vibes', Helvetica, sans-serif;
+  	text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+}
+
+div.photo {
+	padding: 20px;
+	display: flex;
+}
+
+div.photo img{
+	height:250px;
+	border-radius: 50%;
+}
+
+
+
+h2 {
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+h2:before,
+h2:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+h2:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+h2:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+li {
+	list-style-type: none;
+}
+
+body > container > mainbody > education , languages , skills , hobbies , projects , work , contact{
+	font-family: 'Ubuntu', sans-serif;
+	line-height: 1.8;
+	/*background-color:#D3D3D3;*/
+	margin-top: 5%;
+	margin-bottom: 5%;
+	padding: 2%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	box-sizing: border-box;
+}
+
+
+body > container > mainbody header {
+	background-color: #A9A9A9;
+	line-height: 1.2;
+}
+
+body > container > mainbody > hobbies > div.hobbyicons {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+body > container > mainbody > hobbies > div.hobbyicons > div.hobbyicon {
+	height: 100px;
+	width: 100px;
+	display: inline-block;
+	box-sizing: border-box;
+	margin: 3%;
+}
+
+body > container > mainbody > hobbies > div.hobbyicons > div.hobbyicon img {
+	height: 100px;
+	width: 100px;
+	padding: 1%;
+}
+
+
+body > container > mainbody > projects > div.projectlist {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+body > container > mainbody > projects > div.projectlist > div.project {
+	height: 200px;
+	width: 200px;
+	display: inline-block;
+	margin: 4%;
+	align-items: center;
+	box-sizing: border-box;
+}
+
+body > container > mainbody > projects > div.projectlist > div.project img {
+	height: 200px;
+	width: 200px;
+	padding: 2%;
+	display: block;
+	box-sizing: border-box;
+
+	/*
+	opacity: 1;
+	transition: .5s ease;
+  	backface-visibility: hidden;
+	*/
+}
+
+/*
+body > container > mainbody > projects > div.projectlist > div.project > a > div.titlediv {
+	margin:50%;
+	transition: .5s ease;
+  	opacity: 0;
+  	transform: translate(-50%, -50%);
+}
+
+body > container > mainbody > projects > div.projectlist > div.project:hover .projectimage {
+	opacity: 0.3;
+}
+
+body > container > mainbody > projects > div.projectlist > div.project:hover div.titlediv {
+	opacity: 1;
+}
+
+
+
+body > container > mainbody > projects > div.projectlist > div.project > a > div.titlediv > div.title {
+	color: black;
+	font-size: 10px;
+	padding: 16px 32px;
+}
+*/
+
+body > container > mainbody > contact > ul > li{
+	padding-top: 10px;
+	padding-bottom: 10px
+}
+
+body > container > mainbody > contact > ul > li > img {
+	vertical-align: middle;
+	height: 30px;
+	width: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

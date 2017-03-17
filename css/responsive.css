@@ -1,0 +1,125 @@
+@media (max-width:740px) {
+	body > container
+	{
+		flex-direction: row;
+	}
+
+
+	body > container > navigator {
+		flex-direction: column;
+		justify-content: space-around;
+		width: 10%;
+		height: 100%;
+		margin: 0% 2%;
+	}
+
+	body > container > navigator ul {
+		width: 10%;
+		align-items: center;
+		flex-shrink: 1;
+		flex-direction: column;
+	}
+
+	#navlist li a img {
+		height: 4em;
+		width: 4em;
+	}
+
+	/*
+	body > container > navigator ul li {
+		padding-left: 1%;
+		display: inline-block;
+	}
+	
+	body > container > mainbody {
+		width: 100%;
+		height: 100%;
+		box-sizing: border-box;
+	}
+	*/
+
+	body > container > mainbody {
+		margin: 1% 5% 1% 13%;
+	}
+
+	body > container > mainbody > education , languages , skills , hobbies , projects , work , contact {
+		justify-content: center;
+	}
+
+
+
+	body > container > mainbody > about
+	{
+		flex-direction:column;
+		/*width:100%;
+		margin-top: 2%;*/
+		justify-content: center;
+	}
+
+
+	div.info #name {
+		text-align: center;
+	}
+
+
+	div.info #tagline {
+		text-align: center;
+	}
+
+	div.photo {
+		padding: 20px;
+	}
+	
+}
+
+
+
+/*
+@media (max-width:570px) {
+	body > header
+	{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	div.info #name {
+		font-size: 2.4em;
+		text-align: center;
+	}
+
+
+	div.info #tagline {
+		font-size: 1.3em;
+		text-align: center;
+	}
+
+	div.photo {
+		padding: 30px;
+	}
+}
+
+@media (max-width:480px) {
+	body > header
+	{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	div.info #name {
+		font-size: 2.3em;
+		text-align: center;
+	}
+
+
+	div.info #tagline {
+		font-size: 1.0em;
+		text-align: center;
+	}
+
+	div.photo {
+		padding: 30px;
+	}
+}*/
+
