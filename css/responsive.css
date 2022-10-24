@@ -42,7 +42,7 @@
 		margin: 1% 5% 1% 13%;
 	}
 
-	body > container > mainbody > education , languages , skills , hobbies , projects , work , contact {
+	body > container > mainbody > education , languages , skills , hobbies , projects , work , contact, por {
 		justify-content: center;
 	}
 
