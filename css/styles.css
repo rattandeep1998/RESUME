@@ -174,7 +174,7 @@ li {
 	list-style-type: none;
 }
 
-body > container > mainbody > education , languages , skills , hobbies , projects , work , contact{
+body > container > mainbody > education , tech , skills , hobbies , projects , work , contact, por {
 	font-family: 'Ubuntu', sans-serif;
 	line-height: 1.8;
 	/*background-color:#D3D3D3;*/
