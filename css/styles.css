@@ -73,9 +73,9 @@ body > container > navigator ul li a {
 
 
 #navlist li a img {
-	opacity: 0.5;
+	opacity: 0.8;
 	height:4em;
-	border-radius: 50%;
+	/* border-radius: 50%; */
 }
 
 
