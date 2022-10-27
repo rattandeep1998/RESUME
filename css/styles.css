@@ -41,6 +41,33 @@ body > container > navigator ul {
 	width: 100%;
 }
 
+
+
+.projects {
+  box-sizing: border-box;
+}
+
+.projectRow {
+  display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.projectImage {
+  flex: 20%;
+  padding: 10px;
+  /*height: 300px; /* Should be removed. Only for demonstration */
+  text-align: center;
+}
+
+.projectDescription {
+  flex: 80%;
+  padding: 20px;
+  /*height: 300px; /* Should be removed. Only for demonstration */
+}
+
+
+
+
 /*
 body > container > navigator {
 	display: flex;
