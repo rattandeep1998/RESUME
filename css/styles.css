@@ -53,6 +53,7 @@ body > container > navigator ul {
 
 /* Create two equal columns that sits next to each other */
 .projectImage {
+  display: flex;
   flex: 20%;
   padding: 10px;
   /*height: 300px; /* Should be removed. Only for demonstration */
@@ -60,6 +61,7 @@ body > container > navigator ul {
 }
 
 .projectDescription {
+  display: flex;
   flex: 80%;
   padding: 20px;
   /*height: 300px; /* Should be removed. Only for demonstration */
