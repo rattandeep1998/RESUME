@@ -49,21 +49,30 @@ body > container > navigator ul {
 
 .projectRow {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-align-items: center;
 }
 
 /* Create two equal columns that sits next to each other */
-.projectImage {
+.projectImageBox {
   display: flex;
   flex: 20%;
-  padding: 10px;
+  padding: 20px;
   /*height: 300px; /* Should be removed. Only for demonstration */
   text-align: center;
+}
+
+.projectImage {
+	height:200px;
+    /* border-radius: 50%; */
 }
 
 .projectDescription {
   display: flex;
   flex: 80%;
   padding: 20px;
+  flex-direction: column;
   /*height: 300px; /* Should be removed. Only for demonstration */
 }
 
